@@ -9,20 +9,6 @@ import UIKit
 
 class DoorViewController: UIViewController {
     
-
-    @IBAction func houseAction() {
-        let alert = UIAlertController(
-            title: "it is too early",
-            message: "open books",
-            preferredStyle: .alert
-        )
-        
-        let okAlert = UIAlertAction(title: "OK", style: .default)
-        alert.addAction(okAlert)
-        present(alert, animated: true)
-    }
-    
-    
     @IBAction func charactersAction(_ sender: Any) {
         let alert = UIAlertController(
             title: "it is too early",
@@ -34,6 +20,4 @@ class DoorViewController: UIViewController {
         alert.addAction(okAlert)
         present(alert, animated: true)
     }
-
-    
 }
