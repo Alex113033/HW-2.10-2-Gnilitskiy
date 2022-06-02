@@ -1,0 +1,6 @@
+framework module Pods_HW_2_10__2__Gnilitskiy {
+  umbrella header "Pods-HW 2.10 (2) Gnilitskiy-umbrella.h"
+
+  export *
+  module * { export * }
+}
